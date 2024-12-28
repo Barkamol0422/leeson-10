@@ -1,5 +1,5 @@
-a=int(input('Write number: '))
-sum=0
-for i in range(1,a+1):
-    sum=sum+i
-    print("\nSum",sum)
+a=int(input("Enter number of rows: "))
+for i in range(a):
+    for j in range(i+1):
+        print("*",end=" ")
+    print()
